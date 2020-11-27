@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1792127214006766922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4992789455014134010}
+  - component: {fileID: 3875650604135940785}
+  m_Layer: 0
+  m_Name: WoodenChest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4992789455014134010
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792127214006766922}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 137.11293, y: 330.8971, z: -20.909828}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3875650604135940785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792127214006766922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 562f5114659b3d54dad101575bc08274, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  close: {fileID: 21300000, guid: 9b2c6a2205fd8ff4aae5df25c18de399, type: 3}
+  open: {fileID: 21300000, guid: 2466240980205404aa777f01c201488e, type: 3}
+  listItems:
+  - {fileID: 3563521016002085086, guid: b883bd6809a4e3e4dbb797708e1ad860, type: 3}
+  - {fileID: 8546075382569194469, guid: fc159feeddf344e40b1bfdc7fa085bb7, type: 3}
+  days: 0
+  hours: 0
+  minutes: 0
+  secondes: 2
